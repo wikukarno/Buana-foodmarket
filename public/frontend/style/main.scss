@@ -133,6 +133,12 @@ body {
             color: #ffab00;
         }
     }
+
+    .form-control:focus {
+        color: #212529;
+        border-color: #ffab00 !important;
+        box-shadow: 0 0 0 0.25rem rgba(243, 189, 11, 0.3) !important;
+    }
 }
 
 // End Navbar

@@ -1,7 +1,96 @@
-@extends('layouts.app')
+@extends('layouts.auth')
+
+@section('title')
+    Register
+@endsection
 
 @section('content')
-<div class="container">
+
+<section class="section-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12 text-center">
+                    <div class="figure">
+                        <img src="/frontend/images/logo/Logo.png" class="figure-img img-fluid" alt="">
+                        <h1>Buana Food Market</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-5 text-center">
+                    <h2>Register Here!</h2>
+                    <p>Dapatkan Makanan dan minuman favorit anda dengan bergabung bersama kami</p>
+                </div>
+            </div>
+            <form action="{{ route('register') }}" method="POST" enctype="multipart/form-data">
+                @csrf
+                <div class="row mt-3 d-flex justify-content-center">
+                    <div class="col-12 col-lg-4">
+                        <label for="name" class="form-label">Username</label>
+                        <input  id="name" name="name" type="text" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                        @error('name')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="col-12 col-lg-4">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input id="email" name="email" type="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" required autocomplete="email">
+                            @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                    </div>
+                </div>
+                <div class="row mt-3 d-flex justify-content-center">
+                    <div class="col-12 col-lg-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                        @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <label for="password-confirm" class="form-label">Conform Password</label>
+                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                    </div>
+                </div>
+                <div class="row mt-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-4 mb-3">
+                        <div class="d-grid">
+                            <a href="{{ '/auth/redirect' }}" class="btn btn-google"><img src="/frontend/images/ic_google.svg" alt="">
+                                <span>Daftar
+                                    with google</span></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mb-3">
+                        <div class="d-grid">
+                            <button type="submit" class="btn text-white btn-daftar">Daftar Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center mb-sm-3">
+                    <div class="col-12 col-lg-6 text-center already-account">
+                        <hr>
+                        <span>Already have an account? <a href="{{ route('login') }}">Sign
+                                In</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+{{-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -81,5 +170,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 @endsection

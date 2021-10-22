@@ -1,5 +1,9 @@
 @extends('layouts.auth')
 
+@section('title')
+    Login
+@endsection
+
 @section('content')
 
 <section class="section-login">

@@ -9,7 +9,7 @@
     @stack('before-style')
     @include('includes.style')
     @stack('after-style')
-    <title>Login</title>
+    <title>@yield('title')</title>
 </head>
 
 <body>
