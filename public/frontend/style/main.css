@@ -1,0 +1,364 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .navbar-brand img {
+  max-height: 50px !important;
+}
+
+.navbar .navbar-nav {
+  font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #FFAB00;
+  font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #FFAB00;
+  font-weight: 400;
+}
+
+.navbar form .bi {
+  color: #FFAB00;
+}
+
+.navbar form .btn-account-mobile {
+  background-color: #FFAB00;
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar form .btn-account-desktop {
+  color: #FFAB00;
+  font-size: 18px;
+}
+
+.navbar form .btn-account-desktop:hover {
+  background-color: #FFAB00;
+  color: #fff;
+  font-size: 18px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.section-header h1 {
+  margin-top: 100px;
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+}
+
+.section-header h1 span {
+  color: #FFAB00;
+}
+
+.section-header p {
+  color: #BEBEBE;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.section-header img {
+  max-height: 500px;
+}
+
+.section-header .btn-get-now {
+  background-color: #FFAB00;
+  color: #fff;
+}
+
+.section-header .btn-get-now:hover {
+  background-color: #ffba30;
+  color: #fff;
+}
+
+.section-seafood {
+  background-image: url("../images/about/bg_discount.png");
+  background-size: cover;
+  height: 470px;
+}
+
+.section-seafood h1 {
+  margin-top: 80px;
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Balsamiq Sans";
+}
+
+.section-seafood h3 {
+  font-family: "Balsamiq Sans";
+  font-weight: normal;
+  font-size: 48px;
+  text-align: left;
+  color: #ffab00;
+}
+
+.section-seafood a {
+  color: #FFAB00;
+}
+
+.section-seafood-content {
+  margin-top: -50px;
+}
+
+.section-about-content .section-about {
+  background: #070146;
+  width: 650px;
+  height: 300px;
+  border-radius: 200px 0 0 200px;
+  margin-top: -225px;
+}
+
+.section-about-content .section-about h3 {
+  margin-left: 140px;
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 42px;
+  color: #ffab00;
+}
+
+.section-about-content .section-about p {
+  margin-left: 140px;
+  font-family: "Poppins";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #cfcfcf;
+}
+
+@media (max-width: 1024px) {
+  .section-header img {
+    margin-top: 65px;
+  }
+  .section-seafood-content {
+    margin-top: -50px;
+  }
+  .section-seafood-content .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-about-content .section-about {
+    background: #070146;
+    width: 650px;
+    height: 350px;
+    border-radius: 200px 0 0 200px;
+    margin-top: 20px;
+  }
+  .section-about-content .section-about h3 {
+    margin-left: 140px;
+    font-family: "Balsamiq Sans";
+    font-weight: bold;
+    font-size: 42px;
+    color: #ffab00;
+  }
+  .section-about-content .section-about p {
+    margin-left: 140px;
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cfcfcf;
+  }
+  .section-juices-category figure {
+    margin: 16px;
+  }
+}
+
+.section-menu-special {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.section-menu-special h3 {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+}
+
+.section-menu-special h3 span {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #ffab00;
+}
+
+.section-menu-special i {
+  width: 15px;
+}
+
+.section-menu-special .img-special p {
+  color: #cfcfcf;
+}
+
+.section-menu-special .img-special figure {
+  border-radius: 50px;
+  max-width: 226px;
+  max-height: 209px;
+  overflow: hidden;
+}
+
+.section-menu-special .img-special img {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-menu-special .img-special img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.section-category-content {
+  margin-top: 100px;
+}
+
+.section-category-content h3 {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+}
+
+.section-category-content h3 span {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #ffab00;
+}
+
+.section-category-content i {
+  width: 15px;
+}
+
+.section-category-content .nav .nav-item .active {
+  border-bottom: 5px #FFAB00 solid !important;
+}
+
+.section-category-content button {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.section-juices-category a {
+  font-size: 18px;
+  text-decoration: none;
+  background: #FFAB00;
+  color: #fff;
+}
+
+.section-juices-category a:hover {
+  background: #ffba30;
+  color: #fff;
+}
+
+.section-juices-category .figure {
+  margin-left: -3px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.section-juices-category .figure .category-img a {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  bottom: 99px;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+  border-radius: 20px;
+}
+
+.section-juices-category .figure .category-img a:hover {
+  opacity: 1;
+}
+
+.section-reviews-content {
+  margin-top: 100px;
+}
+
+.section-reviews-content h3 {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+}
+
+.section-reviews-content h3 span {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #ffab00;
+}
+
+.section-reviews-content i {
+  width: 15px;
+}
+
+.section-chef-content {
+  margin-top: 100px;
+}
+
+.section-chef-content h3 {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+}
+
+.section-chef-content h3 span {
+  font-family: "Balsamiq Sans";
+  font-weight: bold;
+  font-size: 38px;
+  color: #ffab00;
+}
+
+.section-chef-content figure {
+  position: relative;
+}
+
+.section-chef-content figure .chef-img .icon-verify {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 25px;
+  bottom: 0;
+}
+
+.section-footer-content {
+  margin-top: 120px;
+}
+
+.section-footer-content h5 {
+  font-size: 22px;
+}
+
+.section-footer-content a {
+  font-size: 18px;
+  color: #A2A2A2;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.section-footer-content p {
+  font-size: 18px;
+  color: #A2A2A2;
+  font-weight: 300;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    background-color: #fff;
+}
+
+// navbar
+.navbar {
+    background-color: #fff;
+    .navbar-brand {
+        img {
+            max-height: 50px !important;
+        }
+    }
+    .navbar-nav {
+        font-size: 18px;
+        .nav-link.active {
+            color: #ffab00;
+            font-weight: 600;
+        }
+        .nav-link {
+            color: #ffab00;
+            font-weight: 400;
+        }
+    }
+    form {
+        .bi {
+            color: #ffab00;
+        }
+        // Button
+        .btn-account-mobile {
+            background-color: #ffab00;
+            color: #fff;
+            font-size: 18px;
+        }
+        .btn-account-desktop {
+            color: #ffab00;
+            font-size: 18px;
+            &:hover {
+                background-color: #ffab00;
+                color: #fff;
+                font-size: 18px;
+                transition: all 0.8s;
+            }
+        }
+    }
+    // End Button
+}
+
+// End Navbar
+// Hero
+.section-header {
+    h1 {
+        margin-top: 100px;
+        font-family: "Balsamiq Sans";
+        font-weight: bold;
+        span {
+            color: #ffab00;
+        }
+    }
+    p {
+        color: #bebebe;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    img {
+        max-height: 500px;
+    }
+    .btn-get-now {
+        background-color: #ffab00;
+        color: #fff;
+        &:hover {
+            background-color: #ffba30;
+            color: #fff;
+        }
+    }
+}
+
+// End Hero
+// About
+.section-seafood {
+    background-image: url("../images/about/bg_discount.png");
+    background-size: cover;
+    height: 470px;
+    h1 {
+        margin-top: 80px;
+        font-size: 70px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "Balsamiq Sans";
+    }
+    h3 {
+        font-family: "Balsamiq Sans";
+        font-weight: normal;
+        font-size: 48px;
+        text-align: left;
+        color: #ffab00;
+    }
+    a {
+        color: #ffab00;
+    }
+}
+
+.section-seafood-content {
+    margin-top: -50px;
+}
+
+// About
+.section-about-content {
+    .section-about {
+        background: #070146;
+        width: 650px;
+        height: 300px;
+        border-radius: 200px 0 0 200px;
+        margin-top: -225px;
+        h3 {
+            margin-left: 140px;
+            font-family: "Balsamiq Sans";
+            font-weight: bold;
+            font-size: 42px;
+            color: #ffab00;
+        }
+        p {
+            margin-left: 140px;
+            font-family: "Poppins";
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 25px;
+            color: #cfcfcf;
+        }
+    }
+}
+
+// End About
+// Responsive layouts
+@media (max-width: 1024px) {
+    .section-header {
+        img {
+            margin-top: 65px;
+        }
+    }
+    .section-seafood-content {
+        margin-top: -50px;
+        .row {
+            justify-content: center;
+        }
+    }
+    .section-about-content {
+        .section-about {
+            background: #070146;
+            width: 650px;
+            height: 350px;
+            border-radius: 200px 0 0 200px;
+            margin-top: 20px;
+            h3 {
+                margin-left: 140px;
+                font-family: "Balsamiq Sans";
+                font-weight: bold;
+                font-size: 42px;
+                color: #ffab00;
+            }
+            p {
+                margin-left: 140px;
+                font-family: "Poppins";
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                color: #cfcfcf;
+            }
+        }
+    }
+    .section-juices-category {
+        figure {
+            margin: 16px;
+        }
+    }
+}
+
+// End Responsive layouts
+// menu special
+.section-menu-special {
+    box-sizing: border-box;
+    margin-top: 100px;
+    h3 {
+        font-family: "Balsamiq Sans";
+        font-weight: bold;
+        font-size: 38px;
+        color: #000;
+        span {
+            font-family: "Balsamiq Sans";
+            font-weight: bold;
+            font-size: 38px;
+            color: #ffab00;
+        }
+    }
+    i {
+        width: 15px;
+    }
+    .img-special {
+        p {
+            color: #cfcfcf;
+        }
+        figure {
+            border-radius: 50px;
+            max-width: 226px;
+            max-height: 209px;
+            overflow: hidden;
+        }
+        img {
+            transition: transform 1s ease;
+            object-fit: cover;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+// end menu special
+// Category
+.section-category-content {
+    h3 {
+        font-family: "Balsamiq Sans";
+        font-weight: bold;
+        font-size: 38px;
+        color: #000;
+        span {
+            font-family: "Balsamiq Sans";
+            font-weight: bold;
+            font-size: 38px;
+            color: #ffab00;
+        }
+    }
+    i {
+        width: 15px;
+    }
+    margin-top: 100px;
+    .nav {
+        .nav-item {
+            .active {
+                border-bottom: 5px #ffab00 solid !important;
+            }
+        }
+    }
+    button {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+}
+
+.section-juices-category {
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        background: #ffab00;
+        color: #fff;
+        &:hover {
+            background: #ffba30;
+            color: #fff;
+        }
+    }
+    .figure {
+        margin-left: -3px;
+        margin-top: 20px;
+        position: relative;
+        .category-img a {
+            position: absolute;
+            top: 0;
+            left: 8px;
+            right: 8px;
+            bottom: 99px;
+            background-color: rgba(0, 0, 0, 0.3);
+            opacity: 0;
+            transition: opacity 0.7s;
+            border-radius: 20px;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// End Category
+// Reviews
+.section-reviews-content {
+    margin-top: 100px;
+    h3 {
+        font-family: "Balsamiq Sans";
+        font-weight: bold;
+        font-size: 38px;
+        color: #000;
+        span {
+            font-family: "Balsamiq Sans";
+            font-weight: bold;
+            font-size: 38px;
+            color: #ffab00;
+        }
+    }
+    i {
+        width: 15px;
+    }
+}
+
+// End Reviews
+// Chef
+.section-chef-content {
+    margin-top: 100px;
+    h3 {
+        font-family: "Balsamiq Sans";
+        font-weight: bold;
+        font-size: 38px;
+        color: #000;
+        span {
+            font-family: "Balsamiq Sans";
+            font-weight: bold;
+            font-size: 38px;
+            color: #ffab00;
+        }
+    }
+    figure {
+        position: relative;
+        .chef-img .icon-verify {
+            position: absolute;
+            top: 0;
+            left: auto;
+            right: 25px;
+            bottom: 0;
+        }
+    }
+}
+
+// End Chef
+// footer
+.section-footer-content {
+    margin-top: 120px;
+    h5 {
+        font-size: 22px;
+    }
+    a {
+        font-size: 18px;
+        color: #a2a2a2;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    p {
+        font-size: 18px;
+        color: #a2a2a2;
+        font-weight: 300;
+    }
+}
+
+// End footer
