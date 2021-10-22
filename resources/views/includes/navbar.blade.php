@@ -32,7 +32,7 @@
                         <a href="#" class="nav-icon"><i class="bi bi-cart-plus-fill"></i></a>
                     </div>
                 </form>
-                <form class="form-inline d-sm-block d-md-none mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <form class="form-inline d-sm-block d-md-none mt-3">
                     <div class="nav-item">
                         <button type="button" class="btn btn-account-mobile">My Account</button>
                     </div>
@@ -55,7 +55,7 @@
                         <img src="frontend/images/Path 9.png" alt="">
                     </div>
                 </form>
-                <form class="form-inline my-2 my-lg-0 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
                     <div class="nav-item">
                         <button type="button" class="btn btn-account-desktop">My Account</button>
                     </div>
