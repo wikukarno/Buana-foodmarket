@@ -18,32 +18,32 @@ body {
 }
 
 .navbar .navbar-nav .nav-link.active {
-  color: #FFAB00;
+  color: #ffab00;
   font-weight: 600;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #FFAB00;
+  color: #ffab00;
   font-weight: 400;
 }
 
 .navbar form .bi {
-  color: #FFAB00;
+  color: #ffab00;
 }
 
 .navbar form .btn-account-mobile {
-  background-color: #FFAB00;
+  background-color: #ffab00;
   color: #fff;
   font-size: 18px;
 }
 
 .navbar form .btn-account-desktop {
-  color: #FFAB00;
+  color: #ffab00;
   font-size: 18px;
 }
 
 .navbar form .btn-account-desktop:hover {
-  background-color: #FFAB00;
+  background-color: #ffab00;
   color: #fff;
   font-size: 18px;
   -webkit-transition: all 0.8s;
@@ -57,11 +57,11 @@ body {
 }
 
 .section-header h1 span {
-  color: #FFAB00;
+  color: #ffab00;
 }
 
 .section-header p {
-  color: #BEBEBE;
+  color: #bebebe;
   font-weight: 400;
   font-size: 18px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .section-header .btn-get-now {
-  background-color: #FFAB00;
+  background-color: #ffab00;
   color: #fff;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .section-seafood a {
-  color: #FFAB00;
+  color: #ffab00;
 }
 
 .section-seafood-content {
@@ -219,8 +219,8 @@ body {
 }
 
 .section-menu-special .img-special img:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .section-category-content {
@@ -246,7 +246,7 @@ body {
 }
 
 .section-category-content .nav .nav-item .active {
-  border-bottom: 5px #FFAB00 solid !important;
+  border-bottom: 5px #ffab00 solid !important;
 }
 
 .section-category-content button {
@@ -257,7 +257,7 @@ body {
 .section-juices-category a {
   font-size: 18px;
   text-decoration: none;
-  background: #FFAB00;
+  background: #ffab00;
   color: #fff;
 }
 
@@ -351,14 +351,14 @@ body {
 
 .section-footer-content a {
   font-size: 18px;
-  color: #A2A2A2;
+  color: #a2a2a2;
   font-weight: 300;
   text-decoration: none;
 }
 
 .section-footer-content p {
   font-size: 18px;
-  color: #A2A2A2;
+  color: #a2a2a2;
   font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */

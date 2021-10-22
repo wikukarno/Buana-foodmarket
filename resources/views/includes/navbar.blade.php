@@ -34,7 +34,7 @@
                 </form>
                 <form class="form-inline d-sm-block d-md-none mt-3">
                     <div class="nav-item">
-                        <button type="button" class="btn btn-account-mobile">My Account</button>
+                        <a href="{{ route('login') }}" class="btn btn-account-mobile">My Account</a>
                     </div>
                 </form>
                 <!-- End Mobile -->
@@ -57,7 +57,7 @@
                 </form>
                 <form class="form-inline my-2 my-lg-0 d-none d-md-block">
                     <div class="nav-item">
-                        <button type="button" class="btn btn-account-desktop">My Account</button>
+                        <a href="{{ route('login') }}" class="btn btn-account-desktop">My Account</a>
                     </div>
                 </form>
             </div>
