@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Seller\SellerController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -25,9 +26,17 @@ Route::get('/auth/callback', [LoginController::class, 'handlerProviderCallback']
 
 
 Route::prefix('admin')
+        ->namespace('Admin')
         ->middleware(['auth', 'admin'])
         ->group(function (){
     Route::get('/', [DashboardController::class, 'index']);
+});
+
+Route::prefix('seller')
+        ->namespace('Seller')
+        ->middleware(['auth', 'seller'])
+        ->group(function () {
+        Route::get('/', [DashboardController::class, 'index']);
 });
 
 Auth::routes();

@@ -34,20 +34,6 @@
                         Transaksi</a
                     >
                 </li>
-
-                <li class="menu-title">User Management</li>
-                <!-- /.menu-title -->
-                <li class="">
-                    <a href="#">
-                        <i class="menu-icon fas fa-utensils"></i>Lihat
-                        Restoran</a
-                    >
-                </li>
-                <li class="">
-                    <a href="#">
-                        <i class="menu-icon fa fa-users"></i>Lihat User</a
-                    >
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
