@@ -36,7 +36,7 @@ Route::prefix('seller')
         ->namespace('Seller')
         ->middleware(['auth', 'seller'])
         ->group(function () {
-        Route::get('/', [DashboardController::class, 'index']);
+        Route::get('/', [SellerController::class, 'index']);
 });
 
 Auth::routes();
