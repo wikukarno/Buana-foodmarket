@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.user')
 
 @section('title')
     Admin Food Market
@@ -20,7 +20,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="stat-text">Rp. <span class="count">123901212</span></div>
-                                            <div class="stat-heading">Penghasilan</div>
+                                            <div class="stat-heading">Pengeluaran</div>
                                         </div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="stat-text"><span class="count">3435</span></div>
-                                            <div class="stat-heading">Penjualan</div>
+                                            <div class="stat-heading">Pembelian</div>
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@
                         <div class="col-xl-8">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="box-title">Pembelian Terbaru </h4>
+                                            <h4 class="box-title">Pembelian Terbaru </h4>
                                 </div>
                                 <div class="card-body--">
                                     <div class="table-stats order-table ov-h">

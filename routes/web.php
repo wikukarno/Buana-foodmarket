@@ -3,6 +3,7 @@
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Seller\SellerController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,12 @@ Route::prefix('seller')
         ->middleware(['auth', 'seller'])
         ->group(function () {
         Route::get('/', [SellerController::class, 'index']);
+});
+
+Route::prefix('user')
+        ->middleware(['auth', 'user'])
+        ->group(function () {
+        Route::get('/', [UserController::class, 'index']);
 });
 
 Auth::routes();
